@@ -142,7 +142,7 @@ def main():
         writer.writeheader()
         writer.writerows(all_data)
 
-    print(f"\n✅ Scraping complete. Data saved to {output_file_name}")
+    print(f"\n Scraping complete. Data saved to {output_file_name}")
     driver.quit()
 
 
